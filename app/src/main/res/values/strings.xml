@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ailatrieuphu2</string>
+
+    <string name="tv_welcome">Chào mừng bạn đã đến với</string>
+    <string name="tv_mess_touch">Nhấn bất kì đế bắt đầu</string>
+
+    <string name="login_name">Đăng Nhập</string>
+    <string name="register_name">Đăng Kí</string>
+
+    <string name="user_hint">Tên đăng nhập</string>
+    <string name="mail_hint">Email</string>
+    <string name="pass_hint">Mật khẩu</string>
+    <string name="years_hint">Năm sinh</string>
+
+    <string name="r_account">Nhớ tài khoản</string>
+
+    <string name="btn_play">Chơi</string>
+    <string name="btn_shopping">Cửa Hàng</string>
+    <string name="btn_rank">Rank</string>
+    <string name="btn_setting">Cài đặt</string>
+    <string name="btn_exit">Dừng cuộc chơi</string>
+
+    <string name="high_scores"> Top Rank</string>
+
+    <string name="txt_lv1">200,000</string>
+    <string name="txt_lv2">400,000</string>
+    <string name="txt_lv3">600,000</string>
+    <string name="txt_lv4">1,000,000</string>
+    <string name="txt_lv5">2,000,000</string>
+    <string name="txt_lv6">3,000,000</string>
+    <string name="txt_lv7">6,000,000</string>
+    <string name="txt_lv8">10,000,000</string>
+    <string name="txt_lv9">14,000,000</string>
+    <string name="txt_lv10">22,000,000</string>
+    <string name="txt_lv11">30,000,000</string>
+    <string name="txt_lv12">40,000,000</string>
+    <string name="txt_lv13">80,000,000</string>
+    <string name="txt_lv14">150,000,000</string>
+    <string name="txt_lv15">250,000,000</string>
+
+    <string name="tv_register">Bạn chưa có tài khoản? Đăng kí ngay.</string>
+</resources>

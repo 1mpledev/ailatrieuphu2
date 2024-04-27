@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/player_money_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ai_la_trieu_phu_wwtbam_logo_by_travisnguyenchu_deugfle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/console"
+                android:drawableTint="@color/white"
+                android:text="@string/btn_play"
+                android:background="@drawable/bg_purple_corner_30"/>
+            <Button
+                android:id="@+id/btn_shop"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/bag"
+                android:drawableTint="@color/white"
+                android:text="@string/btn_shopping"
+                android:background="@drawable/bg_purple_corner_30"/>
+            <Button
+                android:id="@+id/btn_rank"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ranking"
+                android:drawableTint="@color/white"
+                android:text="@string/btn_rank"
+                android:background="@drawable/bg_purple_corner_30"/>
+            <Button
+                android:id="@+id/btn_setting"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/settings"
+                android:text="@string/btn_setting"
+                android:drawableTint="@color/white"
+                android:background="@drawable/bg_purple_corner_30"/>
+            <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/exit"
+                android:drawableTint="@color/white"
+                android:text="@string/btn_exit"
+                android:background="@drawable/bg_purple_corner_30"/>
+        </LinearLayout>
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:gravity="center_horizontal">-->
+        <!--            <Button-->
+        <!--                android:layout_width="50dp"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:layout_margin="10dp"-->
+        <!--                android:padding="10dp"-->
+        <!--                android:drawableLeft="@drawable/console"/>-->
+        <!--            <Button-->
+        <!--                android:layout_width="50dp"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:layout_margin="10dp"-->
+        <!--                android:padding="10dp"-->
+        <!--                android:drawableLeft="@drawable/console"/>-->
+        <!--            <Button-->
+        <!--                android:layout_width="50dp"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:layout_margin="10dp"-->
+        <!--                android:padding="10dp"-->
+        <!--                android:drawableLeft="@drawable/console"/>-->
+        <!--            <Button-->
+        <!--                android:layout_width="50dp"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:layout_margin="10dp"-->
+        <!--                android:padding="10dp"-->
+        <!--                android:drawableLeft="@drawable/console"/>-->
+        <!--            <Button-->
+        <!--                android:layout_width="50dp"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:layout_margin="10dp"-->
+        <!--                android:padding="10dp"-->
+        <!--                android:drawableLeft="@drawable/console"/>-->
+        <!--        </LinearLayout>-->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

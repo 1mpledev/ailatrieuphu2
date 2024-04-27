@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginHorizontal="5dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_purple"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Cài đặt"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color"
+        android:gravity="center"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/icon_music"
+            tool:ignore="ContentDescription"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:text="Nhạc nền"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+        <ImageView
+            android:id="@+id/tv_music_on"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/toggle_button_on"
+            tool:ignore="ContentDescription"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color"
+        android:gravity="center"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/contrast"
+            tool:ignore="ContentDescription"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:text="Giao diện sáng"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+        <ImageView
+            android:id="@+id/tv_theme_on"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/toggle_button_on"
+            tool:ignore="ContentDescription"/>
+    </TableRow>
+
+</LinearLayout>

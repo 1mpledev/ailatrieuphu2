@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_purple"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Cài đặt"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_color"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Tắt hộp thoại xác nhận khi chọn đáp án"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/checked"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Xác nhận"
+            android:textSize="30sp"
+            android:textColor="@color/white" />
+        <ImageView
+            android:id="@+id/img_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/btn_on_off"/>
+    </TableRow>
+
+</LinearLayout>

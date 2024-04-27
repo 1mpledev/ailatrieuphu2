@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginHorizontal="5dp">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_purple"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Thông báo"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/bg_color"
+        android:gravity="center"
+        android:text="Tiền Thưởng"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/tv_milestone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_color"
+        android:gravity="center"
+        android:text="@string/txt_lv15"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="name"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="Nhập tên của bạn"
+        android:inputType="text"
+        android:maxLength="10"
+        android:paddingHorizontal="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/bt_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="@color/bg_purple"
+            android:gravity="center"
+            android:text="Chơi lại"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="@color/bg_purple"
+            android:gravity="center"
+            android:text="Lưu Điểm"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </TableRow>
+
+</LinearLayout>
